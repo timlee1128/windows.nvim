@@ -28,6 +28,7 @@ local config = {
    animation = {
       enable = true,
       duration = 300,
+      virtcol = true,
       fps = 30,
       easing = 'in_out_sine' ---@diagnostic disable-line
    }

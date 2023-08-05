@@ -93,7 +93,7 @@ function M.enable()
 
       M.resizing_request = true
 
-      if animation then
+      if animation and config.animation.virtcol then
          local virtcol = cache.cursor_virtcol[curwin]
          if virtcol then
             local leftcol = fn.winsaveview().leftcol
